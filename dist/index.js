@@ -8663,8 +8663,6 @@ async function run () {
         }
         return {
           path: annotation.file,
-          start_line: annotation.line,
-          end_line: annotation.line,
           ...annotation,
           annotation_level: annotationLevel
         }
